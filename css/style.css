@@ -1,0 +1,205 @@
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #30323d;
+    font-size: 1.2em;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bitter', serif;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+.navbar{
+	padding: 20px 0;
+	border-bottom: 1px solid #d1d5de;
+	background: #fff;
+}
+
+.navbar-light .navbar-brand{
+	color: #f9c22e;
+}
+
+.navbar-toggler{
+	border: none;
+}
+
+.intro{
+	text-align: center;
+	background: url('../images/bg.jpeg') center center no-repeat;
+	background-size: cover;
+	color: #fdfffc;
+	margin-top: 80px;
+}
+
+.intro .overlay{
+	padding: 200px 50px;
+	background: rgba(92, 128, 188, 0.9);
+}
+
+.intro h1{
+	margin-bottom: 50px;
+}
+
+.intro strong{
+	color: #f9c22e;
+}
+
+.intro .btn-primary{
+	background: #f9c22e;
+	border: none;
+}
+
+section header{
+	padding: 100px 0;
+	text-align: center;
+}
+
+.services{
+	background: #ededed;
+	padding: 0 0 100px;
+}
+
+.service-item h2{
+	margin-bottom: 20px;
+}
+
+.service-item{
+	padding: 50px 50px 30px;
+	background: #fdfffc;
+}
+
+#webdev{
+	border-bottom: 50px solid #5c80bc;
+}
+
+#consulting{
+	margin-top: 150px;
+	border-bottom: 50px solid #f9c22e;
+}
+
+#mobiledev{
+	border-bottom: 50px solid #30323d;
+}
+
+.process h1{
+	color: #5c80bc;
+}
+
+.process .process-item{
+	padding: 100px 50px;
+}
+
+.process #sprint{
+	background: #f9c22e;
+	color: #fdfffc;
+}
+
+.process #development{
+	background: #fdfffc;
+}
+
+.process #qa{
+	background: #5c80bc;
+	color: #fdfffc;
+}
+
+#sprint strong, #design strong{
+	color: #5c80bc;
+}
+
+#development strong, #qa strong{
+	color: #f9c22e;
+}
+
+.contact{
+	background: #4D5061;
+	color: #fdfffc;
+	padding: 0 0 100px;
+}
+
+.contact h1{
+	color: #f9c22e;
+}
+
+.contact h2{
+	margin-bottom: 20px;
+}
+
+.contact #contact-info{
+	text-align: right;
+}
+
+.contact #contact-info ul{
+	list-style-type: none;
+}
+
+.contact a{
+	color: #f9c22e;
+}
+
+.contact .form-control{
+	border: none;
+	background: #30323D;
+	padding: 20px;
+	color: #fdfffc;
+	border-radius: 0;
+}
+
+.contact label{
+	color: #f9c22e;
+}
+
+.contact textarea{
+	resize: none;
+}
+
+.contact .btn-primary{
+	width: 100%;
+	background: #f9c22e;
+}
+
+
+footer{
+	text-align: center;
+	padding: 25px 0;
+	background: #30323d;
+	color: #fdfffc;
+}
+
+footer strong{
+	color: #f9c22e;
+}
+
+@media screen and (max-width: 968px){
+	#consulting{
+		margin: 50px 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.contact #contact-info{
+		padding: 50px 0 0;
+		text-align: left;
+	}
+
+	.contact #contact-info ul{
+		padding: 0;
+	}
+
+	.navbar-brand{
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 468px){
+	.intro .overlay{
+		padding: 100px 15px;
+	}
+
+}
