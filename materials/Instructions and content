@@ -1,0 +1,160 @@
+Instructions
+
+Final design shown in Con_tinuity-design.png image inside materials folder.
+
+Bootstrap template: https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template 
+
+Google Web Fonts:
+
+Bitter: 700
+Lato: 300, 400
+
+font-family: 'Lato', sans-serif; 
+font-family: 'Bitter', serif;
+
+For both Languages choose Latin. If Croatian diacritics are needed - Latin extended.
+
+Direct link for selected fonts:  
+https://fonts.googleapis.com/css?family=Bitter:700%7CLato:300,400 
+
+Color scheme is available in the palette.pdf file and on the link: https://coolors.co/30323d-fdfffc-5c80bc-f9c22e-d1d5de. 
+
+----------------------------------------------------------------------
+
+
+Content
+
+Title: Con tinuity - Award winning digital agency
+
+
+******** Header ********
+
+Brand: Con tinuity
+
+Navigation:
+    About
+    Services
+    Process
+    Contact
+
+
+******** Intro (About) ********
+
+Background image is in materials folder: bg.jpeg
+
+H1: 
+Con tinuity <br>
+Award winning digital agency
+
+Text: Team of highly skilled web and mobile development enthusiasts always on a lookout for the next big thing. 
+
+CTA: Need a Quote?
+
+
+******** Services ********
+
+BG: #ededed
+
+H1: We are great at these things
+
+Card 1: Web Development
+Paragraph: Our web stack is based on following technologies:
+
+List: 
+    Ruby on Rails
+    PostgreSQL, MySQL
+    HTML, CSS, JS
+
+Card 2: Technology Consulting
+Paragraph: We are technology specialists and can help with:
+
+List:
+    performance optimization
+    security
+    solution architecture
+
+Card 3: Mobile Development
+Paragraph: You can expect us delivering top notch:
+
+List:
+    native Android apps
+    native iOS apps
+    hybrid mobile apps
+
+
+******** Process ********
+
+H1: The Goal Achieving Process
+
+Column 1
+
+H2: 
+Design Sprint
+
+Paragraph: 
+Through a 5 day workshop, our talented team will help you define the right requirements in line with your business goals to make sure we are building right product for the right users.
+
+Column 2
+
+H2:
+Design Phase
+
+Paragraph:
+Series of iterations will be made to come up with more detailed wireframes, interactive prototypes and finally slick and modern UI design ready to be transformed into code.
+
+Column 3:
+
+H2: 
+Development Phase
+
+Paragraph:
+Best practices will be used during development to ensure the best possible user experience and performance. Also, we will take all of the necessary actions to ensure scalability of the product.
+
+Column 4: 
+
+H2:
+Quality Assurance
+
+Paragraph:
+Quality of your product is our top priority. We will take care of it in every phase of the process. Through test driven development and code reviews during development to all kinds of testing before the final deployment.
+
+
+******** Contact ********
+
+BG: #4D5061
+
+H1: 
+Don't be a stranger
+
+Column 1 - Contact form
+
+H2: Drop us a line!
+
+Form:
+Label: Name and Surname
+Input placeholder: Name and Surname
+
+Label 2: Email
+Placeholder 2: your@email.com
+
+Label 3: Describe your project
+Placeholder 3: Tell us more about your project and users
+
+
+Column 2 - Contact Details
+
+H2: Contact details
+Paragraph: You can always visit us at our new and shiny offices.
+
+List
+
+    Vlaška 20, 1000 Zagreb
+    T: +385 (01) 222 3333 (tel:+3851222333)
+    M: info@continuity.com (mailto:info@continuity.com)
+
+
+******** Footer ********
+
+Text: Pixels pushed by Con tinuity &copy; 2018. All rights reserved.
+
+
